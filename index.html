@@ -4,8 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Emergency Hotline</title>
+          <!-- cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 <body>
+  <section>
+
+    <div class="parent-div flex justify-between items-center bg-white px-4 py-2 max-w-[1500px] max-h-[100px]">
+        <!-- left side -->
+      <div class="flex items-center gap-2">
+        <img src="assets/logo.png" class="w-[50px] h-[50px] ml-10" alt="">
+        <p class="text-green-800 text-2xl font-bold"><span>Emergency <br>Service</span></p>
+      </div> 
+
+      <!-- right side -->
+      <div class="flex items-center gap-3 m-10">
+        <!-- heart part -->
+        <div class="flex items-center gap-2 bg-green-50 px-5 py-1 rounded-full">
+          <p class="test-sm font-semibold">0</p>
+          <img src="assets/heart.png" class="w-[20px] h-[20px]" alt="">
+        </div>
+
+        <!-- coin part -->
+         <div class="flex items-center gap-2 bg-green-50 px-5 py-1.5 rounded-full">
+          <p class="text-sm font-semibold">100</p>
+          <img src="assets/coin.png" class="w-[20px] h-[20px]" alt="">
+         </div>
+
+         <!-- copy button -->
+          <button class=" bg-green-600 hover: bg-green-700 text-white text-sm font-semibold px-4 py-1.5 rounded-full"><span class="flex items-center gap-2">2 <p>Copy</p></span></button>
+
+
+      </div>
+
+    </div>
+
+     <!-- title section -->
+
+    <div class="bg-gradient-to-r from-[rgba(1,49,34,1)]  via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)] text-white text-center w-[1500px] h-[239px] flex flex-col items-center justify-center ">
+      <!-- logo -->
+      <img src="assets/logo-dark.png" class="w-[92px] h-[92px]" alt="">
+       
+      <!-- title -->
+       <h2 class="text-2xl mt-2 font-bold">Emergency Service Directory</h2>
+
+       <!-- subtitle -->
+        <p class="text-sm mt-4 max-w-3xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+
+    </div>
+
+    <!-- all card section -->
+      
+    <section class="bg-green-100 w-[1500px]  h-[500px]">
+      <div class="w-[300px] ml-[58px] p-[30px] bor bg-white  ">
+        <div class="flex justify-between items-center">
+          <img src="assets/emergency.png" class="bg-pink-100 p-3 w-[45px] rounded-lg" alt="">
+          <span><i class="fa-regular fa-heart"></i></span> 
+        </div>
+         <div>
+           
+          <h2 class="font-bold">N</h2>
+          <p class="text-sm ">N</p>
+          <h3>9</h3>
+          <p>A</p>
+          <div>
+            <button>Copy</button>
+            <button><span><i class="fa-solid fa-phone"></i></span>Call</button>
+          </div>
+         </div>
+          
+      </div>
+    </section>
+
   
 </body>
 </html>
